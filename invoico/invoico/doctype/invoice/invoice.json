@@ -30,7 +30,7 @@
   },
   {
    "fieldname": "total_amount",
-   "fieldtype": "Int",
+   "fieldtype": "Read Only",
    "label": "Total Amount"
   },
   {
@@ -50,7 +50,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-11 11:31:04.502143",
+ "modified": "2025-06-12 10:56:32.752002",
  "modified_by": "Administrator",
  "module": "Invoico",
  "name": "Invoice",

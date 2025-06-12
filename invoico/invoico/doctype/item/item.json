@@ -2,7 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
- "autoname": "prompt",
+ "autoname": "field:item_code",
  "creation": "2025-06-06 19:24:47.020441",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -16,7 +16,8 @@
   {
    "fieldname": "item_code",
    "fieldtype": "Data",
-   "label": "Item Code"
+   "label": "Item Code",
+   "unique": 1
   },
   {
    "fieldname": "item_name",
@@ -37,11 +38,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-07 23:21:37.839251",
+ "modified": "2025-06-12 10:55:11.321723",
  "modified_by": "Administrator",
  "module": "Invoico",
  "name": "Item",
- "naming_rule": "Set by user",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -57,7 +58,10 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "item_name",
+ "translated_doctype": 1
 }
